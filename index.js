@@ -9,7 +9,7 @@ app.use(express.static('public'));
 
 
 app.get("/", (req, res)=>{
-    res.render("index.ejs", { content: "Welcome to EJS"});
+    res.render("index.ejs", { content: "Weather App"});
 });
 
 
